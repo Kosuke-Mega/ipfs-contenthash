@@ -1,0 +1,45 @@
+{
+  "name": "ipfs-contenthash",
+  "version": "1.0.0",
+  "description": "IPFS CID to ENS Content Hash encoder implementing EIP-1577",
+  "main": "dist/cidEncode.js",
+  "types": "dist/cidEncode.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kosuke-Mega/ipfs-contenthash.git"
+  },
+  "keywords": [
+    "ipfs",
+    "ens",
+    "ethereum",
+    "contenthash",
+    "eip-1577",
+    "cid"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kosuke-Mega/ipfs-contenthash/issues"
+  },
+  "homepage": "https://github.com/Kosuke-Mega/ipfs-contenthash#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "@types/node": "^18.16.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "web3": "^1.0.0"
+  },
+  "dependencies": {},
+  "optionalDependencies": {
+    "@ensdomains/content-hash": "^3.0.0",
+    "multiformats": "^11.0.0"
+  }
+}
